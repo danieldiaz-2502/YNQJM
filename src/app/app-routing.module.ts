@@ -23,6 +23,7 @@ import { Alterinvite2Component } from './alterinvite2/alterinvite2.component';
 import { HomeComponent } from './home/home.component';
 import { SurveComponent } from './surve/surve.component';
 import { RegisterComponent } from './register/register.component';
+import { IntructionsComponent } from './intructions/intructions.component';
 
 const routes: Routes = [
   {
@@ -120,6 +121,10 @@ const routes: Routes = [
   {
     path: 'register',
     component: RegisterComponent
+  },
+  {
+    path: 'instructions',
+    component: IntructionsComponent
   },
 ];
 

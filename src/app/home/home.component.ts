@@ -14,6 +14,6 @@ export class HomeComponent {
 
 
   goToComic(){
-    this.router.navigateByUrl("/register");
+    this.router.navigateByUrl("/instructions");
   }
 }

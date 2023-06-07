@@ -33,6 +33,7 @@ import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
 import { SurveComponent } from './surve/surve.component';
 import { RegisterComponent } from './register/register.component';
 import { FormsModule } from '@angular/forms';
+import { IntructionsComponent } from './intructions/intructions.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -59,6 +60,7 @@ import { FormsModule } from '@angular/forms';
     HomeComponent,
     SurveComponent,
     RegisterComponent,
+    IntructionsComponent,
   ],
   imports: [
     BrowserModule,
