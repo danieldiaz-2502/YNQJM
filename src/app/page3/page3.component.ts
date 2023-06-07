@@ -24,8 +24,7 @@ export class Page3Component {
   }
 
   goToLunch(){
-    this.router.navigateByUrl("/cafeteria1");
-    //this.service.save("almorzar");
+    this.router.navigateByUrl("/cafeteria");
     localStorage.setItem("decision1", "almorzar")
   }
 

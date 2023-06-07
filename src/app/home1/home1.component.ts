@@ -17,7 +17,7 @@ export class Home1Component {
   }
 
   goForward(){
-    this.router.navigateByUrl("/survey");
+    this.router.navigateByUrl("/homefinal1");
   }
 
 }

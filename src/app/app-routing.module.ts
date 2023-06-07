@@ -24,6 +24,9 @@ import { HomeComponent } from './home/home.component';
 import { SurveComponent } from './surve/surve.component';
 import { RegisterComponent } from './register/register.component';
 import { IntructionsComponent } from './intructions/intructions.component';
+import { CafeteriaComponent } from './cafeteria/cafeteria.component';
+import { HomefinalComponent } from './homefinal/homefinal.component';
+import { Homefinal2Component } from './homefinal2/homefinal2.component';
 
 const routes: Routes = [
   {
@@ -125,6 +128,18 @@ const routes: Routes = [
   {
     path: 'instructions',
     component: IntructionsComponent
+  },
+  {
+    path: 'cafeteria',
+    component: CafeteriaComponent
+  },
+  {
+    path: 'homefinal1',
+    component: HomefinalComponent
+  },
+  {
+    path: 'homefinal2',
+    component: Homefinal2Component
   },
 ];
 

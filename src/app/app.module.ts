@@ -34,6 +34,9 @@ import { SurveComponent } from './surve/surve.component';
 import { RegisterComponent } from './register/register.component';
 import { FormsModule } from '@angular/forms';
 import { IntructionsComponent } from './intructions/intructions.component';
+import { CafeteriaComponent } from './cafeteria/cafeteria.component';
+import { HomefinalComponent } from './homefinal/homefinal.component';
+import { Homefinal2Component } from './homefinal2/homefinal2.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -61,6 +64,9 @@ import { IntructionsComponent } from './intructions/intructions.component';
     SurveComponent,
     RegisterComponent,
     IntructionsComponent,
+    CafeteriaComponent,
+    HomefinalComponent,
+    Homefinal2Component,
   ],
   imports: [
     BrowserModule,
